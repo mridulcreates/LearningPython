@@ -70,3 +70,35 @@ print(a.replace("H", "J")) # This will replace H with J
 
 a = "Hello, World!"
 print(a.split(",")) # This will split the string into a list where there is a comma
+
+# STRING CONCATENATION
+
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+
+# STRING FORMAT
+
+age = 16
+txt = f"My name is Mridul, and I am {age}"
+print(txt)
+
+# ------------------------------------------------
+
+price = 50
+txt = f"The price of chips is {price:.2f} rupees" # This will format the price to 2 decimal places
+print(txt) 
+
+# -------------------------------------------------
+
+txt = f"The price is {20 * 59} dollars"
+print(txt)
+
+# ESCAPE CHARACTER
+
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
+
+txt = "Hi \n Mridul"
+print(txt)
